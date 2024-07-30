@@ -14,7 +14,9 @@ class list_view_item_inDetails extends StatelessWidget {
         itemBuilder: (context, index) {
           return const Padding(
             padding: EdgeInsets.symmetric(horizontal: 8),
-            child: custem_item(),
+            child: custem_item(
+              imageUrl: '',
+            ),
           );
         },
       ),

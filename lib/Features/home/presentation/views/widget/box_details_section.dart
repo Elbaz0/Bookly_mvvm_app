@@ -16,7 +16,9 @@ class box_details_section extends StatelessWidget {
         ),
         SizedBox(
           height: MediaQuery.of(context).size.height * 0.28,
-          child: const custem_item(),
+          child: const custem_item(
+            imageUrl: '',
+          ),
         ),
         const SizedBox(
           height: 30,
